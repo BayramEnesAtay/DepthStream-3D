@@ -1,4 +1,4 @@
-# DepthStream-3D: Real-Time Tactical Depth Mapping
+# DepthStream-3D: Real-Time Depth Mapping
 
 ![Unity](https://img.shields.io/badge/Unity-2022+-black?style=flat-square&logo=unity)
 ![Python](https://img.shields.io/badge/Python-3.9+-blue?style=flat-square&logo=python)
