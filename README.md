@@ -5,6 +5,8 @@
 ![PyTorch](https://img.shields.io/badge/PyTorch-AI-red?style=flat-square&logo=pytorch)
 ![HLSL](https://img.shields.io/badge/HLSL-Compute_Shader-purple?style=flat-square)
 
+<img width="648" height="356" alt="Animation" src="https://github.com/user-attachments/assets/e375fd8a-a82c-41b9-ba6c-1ccaf58535b9" />
+
 ## 📌 Proje Özeti
 **DepthStream-3D**, standart 2 boyutlu monoküler kameralardan alınan görüntüleri (örneğin bina içi koridorlar, kapalı alanlar), yapay zeka destekli derinlik kestirimi (Depth Estimation) kullanarak anlık olarak 3 boyutlu nokta bulutlarına (Point Cloud) dönüştüren ve GPU üzerinde renderlayan bir sistem mimarisidir.
 
