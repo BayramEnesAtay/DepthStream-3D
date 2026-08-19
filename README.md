@@ -25,6 +25,12 @@ Proje, CPU darboğazlarını aşmak ve maksimum performansı sağlamak için iki
 ## 🛠️ Kurulum Gereksinimleri
 Projeyi yerel ortamınızda çalıştırmak için aşağıdaki kütüphanelerin ve ortamların kurulu olması gerekmektedir:
 
+**2. Unity Sahne ve Materyal Kurulumu (Önemli)**
+Projeyi ilk açtığınızda görselleştirmenin doğru çalışması için şu bağlantıları kontrol edin/yapın:
+* `Assets` klasöründeki `PointCloudMat` materyaline tıklayın ve Inspector panelinden Shader olarak klasördeki `PointShader` dosyasını seçip atayın.
+* Sahnenizdeki yönetici GameObject'i seçin ve ana UDP/Nokta Bulutu **C# scriptini** bu objeye Component olarak ekleyin.
+* Scriptin Inspector panelindeki `Material` yuvasına, az önce shader atadığınız `PointCloudMat` dosyasını sürükleyip bırakın.
+
 **Python Tarafı İçin:**
 ```bash
 pip install torch transformers opencv-python numpy
