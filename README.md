@@ -37,9 +37,10 @@ pip install torch transformers opencv-python numpy
 ## 🚀 Nasıl Çalıştırılır?
 Veri akışında kopma yaşanmaması için uygulamanın aşağıdaki sırayla başlatılması gerekmektedir:
 
-1. Proje dizininde terminali açın ve yapay zeka sunucusunu başlatın:
+1. Unity editörüne geçiş yapın ve Play butonuna basarak GPU destekli gerçek zamanlı 3D nokta bulutu renderlamasını başlatın.
+2. Proje dizininde terminali açın ve yapay zeka sunucusunu başlatın:
 ```bash
    python sender.py
 ```
-2. Modelin ağırlıkları yüklendikten sonra terminalde veri yayın akışının başladığına dair onay mesajını bekleyin.
-3. Unity editörüne geçiş yapın ve Play butonuna basarak GPU destekli gerçek zamanlı 3D nokta bulutu renderlamasını başlatın.
+3. Modelin ağırlıkları yüklendikten sonra terminalde veri yayın akışının başladığına dair onay mesajını bekleyin.
+
